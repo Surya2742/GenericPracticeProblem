@@ -11,6 +11,10 @@ public class MaxData <T extends Comparable<T>> {
         System.out.println("Original input \t: " + Arrays.deepToString(inputArray));
         Arrays.sort(inputArray);
         System.out.println("Sorted input \t: " + Arrays.deepToString(inputArray));
+        printMax();
+    }
+
+    private void printMax() {
         System.out.println("Maximum value is : " + inputArray[inputArray.length - 1]);
     }
 }
