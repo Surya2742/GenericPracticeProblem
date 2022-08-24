@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        MaxData.maxElement(5, 6, 7);
-        MaxData.maxElement(8, 10, 4);
-        MaxData.maxElement(20, 9, 6);
+        new MaxData(5, 6, 7).maxElement();
+        new MaxData(8, 10, 4).maxElement();
+        new MaxData(20, 9, 6).maxElement();
         System.out.println("");
-        MaxData.maxElement(5.4f, 6.7f, 7.9f);
-        MaxData.maxElement(8.7f, 10.2f, 4.4f);
-        MaxData.maxElement(20.1f, 9.2f, 6.9f);
+        new MaxData(5.4f, 6.7f, 7.9f).maxElement();
+        new MaxData(8.7f, 10.2f, 4.4f).maxElement();
+        new MaxData(20.1f, 9.2f, 6.9f).maxElement();
         System.out.println("");
-        MaxData.maxElement("Ajay", "Abhishek", "Arif");
-        MaxData.maxElement("Mohammad", "Rajdeep", "Jaydeep");
-        MaxData.maxElement("Kaushal", "Jitendra", "Ashkar");
+        new MaxData("Ajay", "Abhishek", "Arif").maxElement();
+        new MaxData("Mohammad", "Rajdeep", "Jaydeep").maxElement();
+        new MaxData("Kaushal", "Jitendra", "Ashkar").maxElement();
     }
 }
